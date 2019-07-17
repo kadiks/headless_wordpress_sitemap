@@ -1,0 +1,25 @@
+{
+  "name": "headless_wordpress_sitemap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Jénaïc Cambré",
+    "url": "https://kyeda.app",
+    "email": "jenaic@kyeda.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.14",
+    "qs": "^6.7.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "sitemap": "^3.2.2"
+  }
+}
