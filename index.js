@@ -1,6 +1,6 @@
 const express = require("express");
 
-const getSitemap = require("./getSitemap");
+const getSitemap = require("./src/getSitemap");
 
 // Variables that should be in a .env file, but here for simplicity sake
 // Make sure to replace their values accordingly to your need
